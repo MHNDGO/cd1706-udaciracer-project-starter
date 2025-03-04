@@ -1,0 +1,54 @@
+.card{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+  }
+  #create-race{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  select{
+    width: 220px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+  }
+  option {
+    border-radius: 10px;
+    margin-top: 5px;
+
+  }
+option:hover{
+    background-color: antiquewhite;
+}
+.cards-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.results-screen{
+  text-align: center;
+  margin: 20px;
+}
+.new-race-button{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background: white;
+  outline: none;
+  color: black;
+  border: 1px solid green;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.new-race-button:hover{
+  background-color: green;
+  color: white;
+} 
